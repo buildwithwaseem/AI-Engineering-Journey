@@ -6,8 +6,8 @@ Zero to AI Engineer in 3 months — building in public.
 
 | Week | Topic | Status | Project |
 |---|---|---|---|
-| Week 1 | Python + Git | ✅ Done | Expense Tracker |
-| Week 2 | LLM APIs | 🔄 In Progress | Chatbot |
+| Week 1 | Python + Git | 🔄 In Progress | Expense Tracker |
+| Week 2 | LLM APIs |⏳ Upcoming | Chatbot |
 | Week 3 | FastAPI | ⏳ Upcoming | - |
 | Week 4 | Docker + Deploy | ⏳ Upcoming | - |
 | Week 5-6 | RAG | ⏳ Upcoming | - |
