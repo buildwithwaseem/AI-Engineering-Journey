@@ -4,7 +4,6 @@
 Write clean Python code and set up GitHub workflow.
 
 ## ✅ What I Learned
-- 
 - Functions, classes, error handling
 - Virtual environments (uv)
 - Git — branch, commit, PR
