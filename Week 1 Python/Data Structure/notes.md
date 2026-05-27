@@ -19,10 +19,8 @@ So far, you’ve stored one value per variable. But what if you need to store mu
 -  Sets: when you only care about unique values
 
 
- # NOTES- ----
-
-## Python counts from 0, not 1! The first item in any collection is at position 0, the second at position 1, and so on. This is called “zero-based indexing” and you’ll see it throughout Python.
-
+# NOTES- ----
+Python counts from 0, not 1! The first item in any collection is at position 0, the second at position 1, and so on. This is called “zero-based indexing” and you’ll see it throughout Python.
 
 
 
