@@ -19,10 +19,8 @@ So far, you’ve stored one value per variable. But what if you need to store mu
 -  Sets: when you only care about unique values
 
 
- # NOTES- ----
-
-## Python counts from 0, not 1! The first item in any collection is at position 0, the second at position 1, and so on. This is called “zero-based indexing” and you’ll see it throughout Python.
-
+# NOTES- ----
+Python counts from 0, not 1! The first item in any collection is at position 0, the second at position 1, and so on. This is called “zero-based indexing” and you’ll see it throughout Python.
 
 
 
@@ -43,34 +41,34 @@ Lists are Python’s most versatile data structure. They’re like containers th
 
 # 1. Index out of range
 
-# Wrong
+### Wrong
 fruits = ["apple", "banana"]
 print(fruits[2])  # IndexError!
-# Right - check length first
+### Right - check length first
 if len(fruits) > 2:
     print(fruits[2])
 
 
 # 2.Modifying while looping
 
-# Wrong - changes list size during loop
+## Wrong - changes list size during loop
 numbers = [1, 2, 3, 4]
 for num in numbers:
     if num == 2:
         numbers.remove(num)  # Dangerous!
-# Right - use list comprehension
+## Right - use list comprehension
 numbers = [num for num in numbers if num != 2]
 
 
 
 # 3. Shallow copy issues
 
-# Wrong - both variables point to same list
+## Wrong - both variables point to same list
 list1 = [1, 2, 3]
 list2 = list1
 list2.append(4)
 print(list1)  # [1, 2, 3, 4] - changed!
-# Right - make a copy
+## Right - make a copy
 list1 = [1, 2, 3]
 list2 = list1.copy()
 list2.append(4)
@@ -80,5 +78,35 @@ print(list1)  # [1, 2, 3] - unchanged
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# LETS LEARN ABOUT   D I C T I O N A R I E S
+# LETS LEARN ABOUT           <br/> D I C T I O N A R I E S
 -  stores data with key-value pairs
+
+# What are Dictionaries ?
+Dictionaries store data in key-value pairs. Think of them like a real dictionary where you look up a word (key) to find its definition (value).
+
+## Real-world examples:
+- Phone book: name > phone number
+- Menu: dish > price
+- User profile: username > user info
+
+## NOTES
+Dictionaries use curly braces {} with key-value pairs separated by colons. Keys must be unique!
+
+# COMMON MISTAKES
+
+# 1. KeyError when key doesn't exist
+
+## Wrong
+person = {"name": "Alice"}
+print(person["age"])  # KeyError!
+## Right - use get()
+print(person.get("age", 0))  # Returns 0 if missing
+
+
+# 2. Using mutable keys
+
+## Wrong - lists can't be keys
+bad_dict = {[1, 2]: "value"}  # TypeError!
+## Right - use immutable types
+good_dict = {(1, 2): "value"}  # Tuple is OK
+good_dict = {"1,2": "value"}   # String is OK
