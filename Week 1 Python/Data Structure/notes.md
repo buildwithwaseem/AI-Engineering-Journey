@@ -78,5 +78,5 @@ print(list1)  # [1, 2, 3] - unchanged
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# LETS LEARN ABOUT           D I C T I O N A R I E S
+# LETS LEARN ABOUT           <br/> # D I C T I O N A R I E S
 -  stores data with key-value pairs
