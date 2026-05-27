@@ -153,3 +153,39 @@ temp[0] = 4
 point = tuple(temp)
 
 
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br/>
+
+# LET'S LEARN ABOUT  S E T S 
+- work with unique collection
+
+## What are sets?
+Sets are collections that only store unique values. They automatically remove duplicates.
+**Think of sets like:**
+- A bag of unique marbles
+- Guest list (each person once)
+- Unique tags or categories
+
+**Use set() for empty sets, not {}. Empty curly braces create a dictionary!**
+
+# COMMON MISTAKES IN SET'S
+
+
+# 1.Empty set syntax
+
+## Wrong - creates empty dict
+empty = {}
+## Right - use set()
+empty = set()
+
+# 2.Sets are unordered
+
+## Order is not guaranteed!
+numbers = {3, 1, 4, 1, 5}
+print(numbers)  # Could be any order
+## Use list if order matters
+ordered = [3, 1, 4, 1, 5]
