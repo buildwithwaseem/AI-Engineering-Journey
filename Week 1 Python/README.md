@@ -4,9 +4,22 @@
 Write clean Python code and set up GitHub workflow.
 
 ## ✅ What I Learned
+- 
 - Functions, classes, error handling
 - Virtual environments (uv)
 - Git — branch, commit, PR
+
+  ## ✅ What I Learned in Day 1
+  Learned some baiscs of python like --
+  1. varibles
+  2. comments
+  3.also python syntax
+  4.analyzed python errors
+  5.code formating 
+
+
+
+
 
 ## 🔨 What I Built
 - Todo CLI app
