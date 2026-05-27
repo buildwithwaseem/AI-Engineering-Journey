@@ -12,9 +12,9 @@ Write clean Python code and set up GitHub workflow.
   Learned some baiscs of python like --
   1. varibles
   2. comments
-  3.also python syntax
-  4.analyzed python errors
-  5.code formating 
+  3. also python syntax
+  4. analyzed python errors
+  5. code formating 
 
 # ✅ What I Learned in Day 2
 in day 2 i leanred so many things like - 
