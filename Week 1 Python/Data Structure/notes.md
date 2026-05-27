@@ -41,10 +41,10 @@ Lists are Python’s most versatile data structure. They’re like containers th
 
 # 1. Index out of range
 
-## Wrong
+### Wrong
 fruits = ["apple", "banana"]
 print(fruits[2])  # IndexError!
-## Right - check length first
+### Right - check length first
 if len(fruits) > 2:
     print(fruits[2])
 
