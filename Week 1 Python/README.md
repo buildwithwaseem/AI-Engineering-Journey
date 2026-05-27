@@ -17,10 +17,31 @@ Write clean Python code and set up GitHub workflow.
   4.analyzed python errors
   5.code formating 
 
+# ✅ What I Learned in Day 2
+in day 2 i leanred so many things like - 
+## data types
+- all the data types
+- Numbers
+- Strings
+- Booleans
+
+## Working with data
+- operators
+- string manipulation and many more
+
+## also learned Control Flow
+- leanred some concept of control flow
+- if statements
+- loops
+
+  ## Data Structures
+  - learned some concept about data structures
+  - About List
+  - Tuples
+  - Sets
 
 
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br/>
 ## 🔨 What I Built
 - Todo CLI app
 - Expense Tracker CLI
